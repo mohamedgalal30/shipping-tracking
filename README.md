@@ -47,3 +47,8 @@ In browser go to
 ```sh
 http://localhost:1337/
 ```
+
+**10) To run test cases**
+```sh
+make test
+```
