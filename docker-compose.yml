@@ -1,0 +1,29 @@
+version: '3'
+services:
+  web:
+    build: .
+    hostname: "app"
+    ports:
+      - "1337:1337"
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    hostname: "rabbitmq-server"
+    environment:
+      RABBITMQ_ERLANG_COOKIE: "SWQOKODSQALRPCLNMEQG"
+      # RABBITMQ_DEFAULT_USER: "rabbitmq"
+      # RABBITMQ_DEFAULT_PASS: "rabbitmq"
+      # RABBITMQ_DEFAULT_VHOST: "/"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    labels:
+      NAME: "rabbitmq"
+  mysql:
+    image: "mysql"
+    hostname: "mysql-server"
+    ports:
+      - 6603:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: "mypassword"
+    volumes:
+      - /storage/docker/mysql-datadir:/var/lib/mysql

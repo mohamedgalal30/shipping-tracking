@@ -1,0 +1,289 @@
+@import "components";
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.footer {
+  background-color: #333333;
+  width: 100%;
+}
+
+/* line 554, ../scss/style.scss */
+.footer .up-footer {
+  padding: 15px 0;
+}
+/* line 558, ../scss/style.scss */
+.footer .about-nozoll .logo {
+  height: 65px;
+  background: url("../images/logo.png") right 0 no-repeat;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+/* line 564, ../scss/style.scss */
+.footer .about-nozoll p {
+  color: #e6e6e6;
+  padding-left: 50px;
+  line-height: 25px;
+}
+/* line 570, ../scss/style.scss */
+.footer .catg {
+  margin-top: 25px;
+  color: white;
+}
+/* line 573, ../scss/style.scss */
+.footer .catg .catg-header {
+  height: 50px;
+}
+/* line 575, ../scss/style.scss */
+.footer .catg .catg-header h4 {
+  color: white;
+  font-size: 20px;
+}
+/* line 580, ../scss/style.scss */
+.footer .catg a {
+  color: white;
+  float: right;
+  padding: 0px 0px 25px 50px;
+  display: block;
+  font-size: 13px;
+}
+/* line 587, ../scss/style.scss */
+.footer .catg .border {
+  border-bottom: 1px solid #444444;
+  padding: 5px;
+}
+/* line 591, ../scss/style.scss */
+.footer .catg .social-media {
+  text-align: center;
+  padding: 20px;
+}
+/* line 594, ../scss/style.scss */
+.footer .catg .social-media ul {
+  padding: 0;
+}
+/* line 597, ../scss/style.scss */
+.footer .catg .social-media ul li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+/* line 600, ../scss/style.scss */
+.footer .catg .social-media ul li a {
+  display: block;
+  height: 35px;
+  width: 35px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0px;
+  color: #505050;
+}
+/* line 609, ../scss/style.scss */
+.footer .catg .social-media ul li a i {
+  font-size: 19px;
+  line-height: 1.9;
+}
+/* line 614, ../scss/style.scss */
+.footer .catg .social-media ul li a:hover {
+  color: #747474;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 622, ../scss/style.scss */
+.footer .down-footer {
+  text-align: center;
+  width: 100%;
+  background-color: #282828;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  color: #6f6f6f;
+  font-size: 14px;
+}
+
+/* line 636, ../scss/style.scss */
+#header {
+  position: fixed;
+  background-color: #0181ac;
+  top: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  min-height: 62px;
+  z-index: 888;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+/* line 650, ../scss/style.scss */
+#header .search-header .header-logo .nozoll-logo {
+  background-image: url("../images/header-logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 62px;
+  width: 48px;
+  margin-right: 20px;
+}
+/* line 661, ../scss/style.scss */
+#header .search-header .header-service .dropdown-toggle {
+  color: white;
+  padding: 0 30px;
+  line-height: 60px;
+}
+/* line 666, ../scss/style.scss */
+#header .search-header .header-service .dropdown-menu {
+  border: none;
+  right: -18px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+/* line 670, ../scss/style.scss */
+#header .search-header .header-service .dropdown-menu a {
+  padding: 5px 15px;
+}
+/* line 673, ../scss/style.scss */
+#header .search-header .header-service .dropdown-menu li.active > a {
+  background-color: #f1f1f1;
+  color: #0181ac;
+}
+/* line 677, ../scss/style.scss */
+#header .search-header .header-service .dropdown-menu:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  left: 57%;
+  top: 0;
+  border: 7px solid black;
+  border-color: transparent transparent #FFFFFF #FFFFFF;
+  transform-origin: 0 0;
+  transform: rotate(135deg);
+}
+/* line 693, ../scss/style.scss */
+#header .search-header .header-filter .filter-icon {
+  position: absolute;
+  font-size: 16px;
+  padding: 20px;
+  color: #0181ac;
+}
+/* line 699, ../scss/style.scss */
+#header .search-header .header-filter input {
+  height: 38px;
+  width: 320px;
+  border-radius: 3px;
+  margin: 12px 5px;
+  line-height: 24px;
+  padding-right: 30px;
+  box-shadow: none;
+  border: none;
+}
+/* line 710, ../scss/style.scss */
+#header .search-header .header-left {
+  margin: 10px 0;
+}
+/* line 712, ../scss/style.scss */
+#header .search-header .header-left > ul > li > a {
+  color: #e8e5e5;
+  line-height: 29px;
+}
+/* line 716, ../scss/style.scss */
+#header .search-header .header-left > ul > li > a:hover {
+  background: none;
+  color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 721, ../scss/style.scss */
+#header .search-header .header-left > ul > li > a:focus {
+  background: none;
+}
+/* line 722, ../scss/style.scss */
+#header .search-header .header-left > ul > li > button, #header .search-header .header-left > ul > li > .art > button {
+  margin: 12px 5px;
+}
+/* line 725, ../scss/style.scss */
+#header .search-header .header-left .profile_pic {
+  display: inline-block;
+  float: left;
+  margin-top: 3px;
+}
+/* line 729, ../scss/style.scss */
+#header .search-header .header-left .profile_pic a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+/* line 733, ../scss/style.scss */
+#header .search-header .header-left .profile_pic a img {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+/* line 741, ../scss/style.scss */
+#header .search-header .header-left .notify_center {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+  margin-top: 9px;
+}
+/* line 746, ../scss/style.scss */
+#header .search-header .header-left .notify_center a {
+  display: block;
+  width: 100%;
+}
+/* line 749, ../scss/style.scss */
+#header .search-header .header-left .notify_center a i {
+  color: white;
+  float: left;
+  opacity: .2;
+  font-size: 20px;
+}
+/* line 759, ../scss/style.scss */
+#header .search-header .header-left .active_notify a i {
+  opacity: 1;
+}
+
+/* line 764, ../scss/style.scss */
+#header .search-header .header-left .notify_num {
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  position: absolute;
+  top: -2px;
+  right: -9px;
+  background: #ef405e;
+  line-height: 17px;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}
+/* line 777, ../scss/style.scss */
+#header .search-header .header-left .nozol_apps {
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+/* line 782, ../scss/style.scss */
+#header .search-header .header-left .nozol_apps a {
+  display: block;
+}
+/* line 784, ../scss/style.scss */
+#header .search-header .header-left .nozol_apps a i {
+  font-size: 26px;
+  color: white;
+}

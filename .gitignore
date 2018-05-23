@@ -1,0 +1,9 @@
+.settings/*
+.idea/*
+.vscode/**/*
+.sass-cache/*
+.tmp/*
+node_modules/*
+config/local.js
+config/env/staging.js
+config/env/procuction.js
