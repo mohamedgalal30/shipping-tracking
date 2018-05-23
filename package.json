@@ -2,6 +2,7 @@
   "dependencies": {
     "bluebird": "^3.4.7",
     "chai": "^4.1.2",
+    "css-loader": "^0.28.11",
     "ejs": "^2.5.5",
     "google-map-react": "^1.0.3",
     "lodash": "^4.17.4",
@@ -15,6 +16,7 @@
     "sails-mysql": "^0.11.5",
     "sinon": "^4.5.0",
     "sinon-chai": "^3.0.0",
+    "style-loader": "^0.21.0",
     "waterline": "~0.10.17",
     "whatwg-fetch": "^2.0.3"
   },

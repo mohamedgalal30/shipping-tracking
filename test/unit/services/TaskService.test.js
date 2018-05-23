@@ -88,6 +88,26 @@ describe(TEST_NAME, function () {
 
     });
 
+    context('update task status', function () {
+        let sandBox, updateStub;
+        beforeEach(() => {
+            sandBox = sinon.sandbox.create();
+            updateStub = sandBox.stub(Task, "update").returns([]);
+        })
+
+
+        afterEach(() => {
+            sandBox.restore();
+        })
+
+
+        it("should update the status", async function () {
+            //no time to implement
+        });
+
+
+    });
+
 
 
 });

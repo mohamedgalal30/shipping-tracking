@@ -25,6 +25,7 @@ module.exports = {
 
         return Promise.props(promises)
     },
+    
     updateStatus(taskId, status) {
         //in case of task_Tag is  not found in the req Body
         if (!taskId || !status)
@@ -35,6 +36,7 @@ module.exports = {
                 return updatedTask[0]
             })
     },
+
     initTasks() {
         return Task.find()
             .then(tasks => {
